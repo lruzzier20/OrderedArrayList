@@ -16,5 +16,6 @@ public class Tester{
     System.out.println(b.add("Hello!"));
     System.out.println(b.set(0, "You Shouldn't Be Seeing This"));
     System.out.println(b);
+    OrderedArrayList<Integer> c = new OrderedArrayList<Integer>();
   }
 }
