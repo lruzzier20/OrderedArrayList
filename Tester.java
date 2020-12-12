@@ -17,5 +17,18 @@ public class Tester{
     System.out.println(b.set(0, "You Shouldn't Be Seeing This"));
     System.out.println(b);
     OrderedArrayList<Integer> c = new OrderedArrayList<Integer>();
+    c.add(5);
+    c.add(4);
+    c.add(3);
+    c.add(2);
+    c.add(1);
+    c.add(0);
+    c.add(5);
+    c.add(5);
+    c.add(6);
+    c.add(7);
+    System.out.println(c);
+    c.add(0, 10000);  
+    System.out.println(c);
   }
 }
