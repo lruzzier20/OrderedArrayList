@@ -28,7 +28,9 @@ public class Tester{
     c.add(6);
     c.add(7);
     System.out.println(c);
-    c.add(0, 10000);  
+    c.add(0, 10000);
+    System.out.println(c);
+    c.set(6, 10);
     System.out.println(c);
   }
 }
