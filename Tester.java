@@ -30,7 +30,7 @@ public class Tester{
     System.out.println(c);
     c.add(0, 10000);
     System.out.println(c);
-    c.set(6, 10);
+    System.out.println(c.set(6, 10));
     System.out.println(c);
   }
 }
